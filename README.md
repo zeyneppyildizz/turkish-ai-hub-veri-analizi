@@ -1,1 +1,8 @@
-# turkish-ai-hub-veri-analizi
+Kahve Satış Verisi Analizi bu proje, bir kahve dükkanı satış veri setini kullanarak veri temizleme, manipülasyon, analiz ve görselleştirme işlemlerini göstermektedir. İçindekiler 1.Giriş 2.Kurulum 3.İçerik Özeti 4.Özellikler 5.Kullanım  
+Giriş bu proje, bir kahve dükkanı satış veri setini işleyip analiz ederek içgörüler elde etmeyi ve görselleştirmeler oluşturmayı hedefliyor. Proje kapsamında eksik veri yönetimi, sütun adlarının standartlaştırılması ve satış eğilimlerini anlamak için görselleştirmeler oluşturma yer alıyor. 
+Kurulum 
+1. bu depoyu yerel makinemize klonladık. 
+2. Aşağıdaki Python kütüphanelerinin kurduk:  
+- pandas  - numpy  - openpyxl  - matplotlib  - seaborn
+3. Veri setini (`Coffee Shop Sales.xlsx`) uygun klasöre yerleştirdik.
+İçerik Özeti 1. **Başlangıç Kütüphanelerini Eklemek**:  - Veri işleme ve görselleştirme için gerekli kütüphanelerin import edilmesi. 2. **Veri Seti Yükleme ve İnceleme**:  - Excel veri setinin yüklenmesi.  - Veri boyutu, sütun/satır bilgileri ve ilk/son birkaç satırın incelenmesi. 3. **Veri Temizleme ve Manipülasyon**:  - Eksik değerlerin (NaN) tespiti ve silinmesi.  - Sütun isimlerinin değiştirilmesi. 4. **Veri Analizi ve Görselleştirme**:  - Gruplama ve filtreleme.  - Satış verilerinin görselleştirilmesi.  - Numerik sütunlar üzerinde yoğunluk analizleri. 5. **Dönüşüm ve Hesaplama**:  - Verileri farklı birimlere çevirme (örneğin, dolar-türk lirası dönüşümü). ## Özellikler - **Veri Temizleme**: Eksik değerlerin işlenmesi ve sütun adlarının standartlaştırılması. - **Analiz**:  - Tanımlayıcı istatistiklerin hesaplanması.  - Kategorilere göre verilerin gruplandırılması (örneğin, ürün türü, mağaza konumu). - **Görselleştirme**:  - Fiyat dağılımları için bar ve KDE grafikleri.  - En çok satılan ürünler ve gelir eğilimleri için grafikler. - **Para Birimi Dönüşümü**: Fiyatların USD'den TRY'ye dönüştürülmesi (örnek oran: 1 USD = 34.55 TRY

@@ -38,7 +38,11 @@ Bu proje, bir kahve dükkanı satış veri setini işleyip analiz ederek içgör
 5-Dönüşüm ve Hesaplama: Verileri farklı birimlere çevirdik(örneğin, dolar-türk lirası dönüşümü).
 
 **Özellikler**
+
 Veri Temizleme: Eksik değerleri işledik ve sütun adlarını standartlaştırdık. 
+
 Analiz: Tanımlayıcı istatistikleri hesapladık. Kategorilere göre verileri gruplandırdık(örneğin, ürün türü, mağaza konumu). 
+
 Görselleştirme: Fiyat dağılımları için bar ve KDE grafikleri oluşturduk. En çok satılan ürünler ve gelir eğilimleri için grafikler oluşturduk. 
+
 Para Birimi Dönüşümü: Fiyatları USD'den TRY'ye dönüştürdük (örnek 1 USD = 34.55 TRY)

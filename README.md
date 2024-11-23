@@ -46,3 +46,5 @@ Analiz: Tanımlayıcı istatistikleri hesapladık. Kategorilere göre verileri g
 Görselleştirme: Fiyat dağılımları için bar ve KDE grafikleri oluşturduk. En çok satılan ürünler ve gelir eğilimleri için grafikler oluşturduk. 
 
 Para Birimi Dönüşümü: Fiyatları USD'den TRY'ye dönüştürdük (örnek 1 USD = 34.55 TRY)
+
+Kaggle linki: https://www.kaggle.com/code/zeyneppyildizz/turkish-ai-hub-veri-analizi
